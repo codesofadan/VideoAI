@@ -1,0 +1,38 @@
+{
+  "chunk": 9,
+  "start": 1080.0,
+  "words": [
+    {
+      "text": "I'm",
+      "start": 1191.87,
+      "end": 1193.27
+    },
+    {
+      "text": "going",
+      "start": 1193.27,
+      "end": 1193.49
+    },
+    {
+      "text": "to",
+      "start": 1193.49,
+      "end": 1196.13
+    },
+    {
+      "text": "do",
+      "start": 1196.13,
+      "end": 1199.97
+    },
+    {
+      "text": "it.",
+      "start": 1199.97,
+      "end": 1199.97
+    }
+  ],
+  "segments": [
+    {
+      "start": 1191.87,
+      "end": 1199.97,
+      "text": "I'm going to do it."
+    }
+  ]
+}

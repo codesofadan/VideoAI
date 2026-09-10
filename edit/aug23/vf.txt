@@ -1,0 +1,4 @@
+[0:v]split=2[base][pre];
+[pre]crop=421:554:432:111,scale=14:18,scale=421:554:flags=neighbor,gblur=sigma=16[bl];
+[base][bl]overlay=432:111[bd];
+[bd]crop=837:549:13:113,scale=1646:1080:flags=lanczos,pad=1920:1080:137:0:color=0x131314[v]

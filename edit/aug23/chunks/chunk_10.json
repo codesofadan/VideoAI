@@ -1,0 +1,428 @@
+{
+  "chunk": 10,
+  "start": 1200.0,
+  "words": [
+    {
+      "text": "I",
+      "start": 1202.62,
+      "end": 1203.14
+    },
+    {
+      "text": "have",
+      "start": 1203.14,
+      "end": 1203.66
+    },
+    {
+      "text": "a",
+      "start": 1203.66,
+      "end": 1203.92
+    },
+    {
+      "text": "little",
+      "start": 1203.92,
+      "end": 1203.92
+    },
+    {
+      "text": "bit",
+      "start": 1203.92,
+      "end": 1204.12
+    },
+    {
+      "text": "of",
+      "start": 1204.12,
+      "end": 1204.12
+    },
+    {
+      "text": "a",
+      "start": 1204.12,
+      "end": 1204.2
+    },
+    {
+      "text": "day",
+      "start": 1204.2,
+      "end": 1204.44
+    },
+    {
+      "text": "and",
+      "start": 1204.44,
+      "end": 1204.8
+    },
+    {
+      "text": "then",
+      "start": 1204.8,
+      "end": 1205.16
+    },
+    {
+      "text": "we",
+      "start": 1205.16,
+      "end": 1205.84
+    },
+    {
+      "text": "will",
+      "start": 1205.84,
+      "end": 1205.9
+    },
+    {
+      "text": "talk",
+      "start": 1205.9,
+      "end": 1205.9
+    },
+    {
+      "text": "about",
+      "start": 1205.9,
+      "end": 1205.94
+    },
+    {
+      "text": "it",
+      "start": 1205.94,
+      "end": 1207.26
+    },
+    {
+      "text": "and",
+      "start": 1207.26,
+      "end": 1207.38
+    },
+    {
+      "text": "then",
+      "start": 1207.38,
+      "end": 1207.58
+    },
+    {
+      "text": "we",
+      "start": 1207.58,
+      "end": 1207.72
+    },
+    {
+      "text": "will",
+      "start": 1207.72,
+      "end": 1207.8
+    },
+    {
+      "text": "find",
+      "start": 1207.8,
+      "end": 1207.96
+    },
+    {
+      "text": "out",
+      "start": 1207.96,
+      "end": 1208.22
+    },
+    {
+      "text": "what",
+      "start": 1208.22,
+      "end": 1208.82
+    },
+    {
+      "text": "we",
+      "start": 1208.82,
+      "end": 1209.88
+    },
+    {
+      "text": "can",
+      "start": 1209.88,
+      "end": 1210.34
+    },
+    {
+      "text": "do.",
+      "start": 1210.34,
+      "end": 1210.34
+    },
+    {
+      "text": "We",
+      "start": 1211.18,
+      "end": 1211.7
+    },
+    {
+      "text": "will",
+      "start": 1211.7,
+      "end": 1212.1
+    },
+    {
+      "text": "do",
+      "start": 1212.1,
+      "end": 1212.1
+    },
+    {
+      "text": "it",
+      "start": 1212.1,
+      "end": 1212.1
+    },
+    {
+      "text": "for",
+      "start": 1212.1,
+      "end": 1212.1
+    },
+    {
+      "text": "4",
+      "start": 1212.1,
+      "end": 1212.32
+    },
+    {
+      "text": "-4",
+      "start": 1212.32,
+      "end": 1212.76
+    },
+    {
+      "text": "days.",
+      "start": 1212.76,
+      "end": 1213.02
+    },
+    {
+      "text": "Yes,",
+      "start": 1214.6,
+      "end": 1215.12
+    },
+    {
+      "text": "okay.",
+      "start": 1215.2,
+      "end": 1215.5
+    },
+    {
+      "text": "So",
+      "start": 1217.33,
+      "end": 1217.63
+    },
+    {
+      "text": "I",
+      "start": 1217.63,
+      "end": 1218.55
+    },
+    {
+      "text": "have",
+      "start": 1218.55,
+      "end": 1218.73
+    },
+    {
+      "text": "told",
+      "start": 1218.73,
+      "end": 1218.79
+    },
+    {
+      "text": "you",
+      "start": 1218.79,
+      "end": 1218.87
+    },
+    {
+      "text": "that",
+      "start": 1218.87,
+      "end": 1219.15
+    },
+    {
+      "text": "I",
+      "start": 1219.15,
+      "end": 1219.31
+    },
+    {
+      "text": "will",
+      "start": 1219.31,
+      "end": 1219.31
+    },
+    {
+      "text": "do",
+      "start": 1219.31,
+      "end": 1219.31
+    },
+    {
+      "text": "it",
+      "start": 1219.31,
+      "end": 1219.39
+    },
+    {
+      "text": "for",
+      "start": 1219.39,
+      "end": 1219.83
+    },
+    {
+      "text": "3",
+      "start": 1219.83,
+      "end": 1219.99
+    },
+    {
+      "text": "days.",
+      "start": 1219.99,
+      "end": 1220.37
+    },
+    {
+      "text": "But",
+      "start": 1221.05,
+      "end": 1221.57
+    },
+    {
+      "text": "now",
+      "start": 1221.57,
+      "end": 1221.79
+    },
+    {
+      "text": "this",
+      "start": 1221.79,
+      "end": 1221.99
+    },
+    {
+      "text": "is",
+      "start": 1221.99,
+      "end": 1222.19
+    },
+    {
+      "text": "that",
+      "start": 1222.19,
+      "end": 1222.19
+    },
+    {
+      "text": "you",
+      "start": 1222.19,
+      "end": 1222.37
+    },
+    {
+      "text": "have",
+      "start": 1222.37,
+      "end": 1222.71
+    },
+    {
+      "text": "to",
+      "start": 1222.71,
+      "end": 1222.81
+    },
+    {
+      "text": "do",
+      "start": 1222.81,
+      "end": 1222.83
+    },
+    {
+      "text": "one",
+      "start": 1222.83,
+      "end": 1223.41
+    },
+    {
+      "text": "thing,",
+      "start": 1223.41,
+      "end": 1223.63
+    },
+    {
+      "text": "you",
+      "start": 1223.95,
+      "end": 1224.29
+    },
+    {
+      "text": "have",
+      "start": 1224.29,
+      "end": 1224.59
+    },
+    {
+      "text": "to",
+      "start": 1224.59,
+      "end": 1224.65
+    },
+    {
+      "text": "have",
+      "start": 1224.65,
+      "end": 1224.65
+    },
+    {
+      "text": "a",
+      "start": 1224.65,
+      "end": 1224.67
+    },
+    {
+      "text": "little",
+      "start": 1224.67,
+      "end": 1224.79
+    },
+    {
+      "text": "bit",
+      "start": 1224.79,
+      "end": 1224.79
+    },
+    {
+      "text": "of",
+      "start": 1224.79,
+      "end": 1224.79
+    },
+    {
+      "text": "time",
+      "start": 1224.79,
+      "end": 1224.99
+    },
+    {
+      "text": "with",
+      "start": 1224.99,
+      "end": 1225.27
+    },
+    {
+      "text": "me,",
+      "start": 1225.27,
+      "end": 1225.27
+    },
+    {
+      "text": "you",
+      "start": 1225.55,
+      "end": 1225.63
+    },
+    {
+      "text": "have",
+      "start": 1225.63,
+      "end": 1225.63
+    },
+    {
+      "text": "to",
+      "start": 1225.63,
+      "end": 1225.63
+    },
+    {
+      "text": "have",
+      "start": 1225.63,
+      "end": 1225.63
+    },
+    {
+      "text": "a",
+      "start": 1225.63,
+      "end": 1225.63
+    },
+    {
+      "text": "little",
+      "start": 1225.63,
+      "end": 1225.63
+    },
+    {
+      "text": "bit",
+      "start": 1225.63,
+      "end": 1225.75
+    },
+    {
+      "text": "of",
+      "start": 1225.75,
+      "end": 1225.75
+    },
+    {
+      "text": "flexible.",
+      "start": 1225.75,
+      "end": 1226.03
+    }
+  ],
+  "segments": [
+    {
+      "start": 1202.62,
+      "end": 1210.34,
+      "text": "I have a little bit of a day and then we will talk about it and then we will find out what we can do."
+    },
+    {
+      "start": 1211.18,
+      "end": 1213.02,
+      "text": "We will do it for 4-4 days."
+    },
+    {
+      "start": 1214.6,
+      "end": 1215.5,
+      "text": "Yes, okay."
+    },
+    {
+      "start": 1217.33,
+      "end": 1220.37,
+      "text": "So I have told you that I will do it for 3 days."
+    },
+    {
+      "start": 1221.05,
+      "end": 1226.03,
+      "text": "But now this is that you have to do one thing, you have to have a little bit of time with me, you have to have a little bit of flexible."
+    }
+  ]
+}

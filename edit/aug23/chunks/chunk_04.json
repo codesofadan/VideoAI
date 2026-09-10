@@ -1,0 +1,63 @@
+{
+  "chunk": 4,
+  "start": 480.0,
+  "words": [
+    {
+      "text": "I'm",
+      "start": 584.29,
+      "end": 584.47
+    },
+    {
+      "text": "proud",
+      "start": 584.47,
+      "end": 584.65
+    },
+    {
+      "text": "of",
+      "start": 584.65,
+      "end": 584.99
+    },
+    {
+      "text": "every",
+      "start": 585.66,
+      "end": 586.74
+    },
+    {
+      "text": "moment",
+      "start": 586.74,
+      "end": 587.8
+    },
+    {
+      "text": "tells",
+      "start": 587.8,
+      "end": 588.36
+    },
+    {
+      "text": "us",
+      "start": 588.36,
+      "end": 588.58
+    },
+    {
+      "text": "the",
+      "start": 588.58,
+      "end": 588.72
+    },
+    {
+      "text": "frame",
+      "start": 588.72,
+      "end": 589.18
+    },
+    {
+      "text": "captures.",
+      "start": 589.18,
+      "end": 589.66
+    }
+  ],
+  "segments": [
+    {
+      "start": 584.29,
+      "end": 589.66,
+      "text": "I'm proud of every moment tells us the frame captures."
+    }
+  ]
+}

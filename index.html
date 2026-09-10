@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eyewear Studio — AI Try-On</title>
+  <style>
+    body {
+      margin: 0; padding: 0; background: #000; overflow: hidden;
+    }
+
+    #root {
+      width: 1080px; height: 1920px;
+      background: #030305;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      position: relative;
+      overflow: hidden;
+      letter-spacing: -0.01em;
+    }
+
+    /* Background Orbs */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: 0;
+      opacity: 0.6;
+    }
+    .orb-1 {
+      width: 800px; height: 800px;
+      background: rgba(0, 255, 170, 0.4);
+      top: -200px; left: -200px;
+    }
+    .orb-2 {
+      width: 900px; height: 900px;
+      background: rgba(0, 119, 255, 0.4);
+      bottom: -100px; right: -300px;
+    }
+    .orb-3 {
+      width: 600px; height: 600px;
+      background: rgba(255, 0, 255, 0.2);
+      top: 40%; left: 30%;
+    }
+
+    .noise {
+      position: absolute; inset: 0; z-index: 1; opacity: 0.05;
+      background-image: url('data:image/svg+xml;utf8,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
+    }
+
+    .grid {
+      position: absolute; inset: 0; z-index: 2; opacity: 0.15;
+      background-image: linear-gradient(rgba(255,255,255,0.2) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.2) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    .scene {
+      position: absolute; inset: 0; z-index: 5;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 0 80px; box-sizing: border-box;
+    }
+
+    /* SCENE 1 */
+    .s1-tag {
+      font-size: 24px; letter-spacing: 12px; font-weight: 500;
+      color: #00ffaa; text-transform: uppercase; margin-bottom: 40px;
+    }
+    .s1-logo {
+      font-size: 160px; font-weight: 900; letter-spacing: -4px; line-height: 1; margin: 0;
+      background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-align: center;
+    }
+    .s1-sub {
+      font-size: 42px; font-weight: 300; color: rgba(255,255,255,0.7); margin-top: 30px;
+    }
+
+    /* SCENE 2 */
+    .s2-text { font-size: 72px; font-weight: 700; line-height: 1.1; text-align: center; margin: 0; }
+    .s2-word { display: inline-block; }
+    .s2-highlight { color: #00ffaa; font-weight: 900; }
+
+    /* SCENE 3 */
+    .s3-title { font-size: 64px; font-weight: 800; margin-bottom: 60px; text-align: center; }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      border-radius: 30px;
+      padding: 50px;
+      margin-bottom: 40px;
+      width: 100%; max-width: 800px;
+      display: flex; align-items: center; gap: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+    .glass-card .icon {
+      width: 120px; height: 120px;
+      background: linear-gradient(135deg, rgba(0,255,170,0.2), rgba(0,119,255,0.2));
+      border-radius: 24px; display: flex; align-items: center; justify-content: center;
+      border: 1px solid rgba(255,255,255,0.15);
+      flex-shrink: 0;
+    }
+    .glass-card .icon svg { width: 60px; height: 60px; color: #fff; }
+    .glass-card .content h3 { font-size: 42px; margin: 0 0 10px 0; font-weight: 700; }
+    .glass-card .content p { font-size: 24px; margin: 0; color: rgba(255,255,255,0.7); line-height: 1.4; }
+
+    /* SCENE 4 */
+    .s4-heading { font-size: 90px; font-weight: 900; text-align: center; line-height: 1.1; margin: 0; }
+    .s4-sub { font-size: 36px; font-weight: 400; color: #00ffaa; margin-top: 40px; }
+    
+    /* SCENE 5 */
+    .s5-logo { font-size: 140px; font-weight: 900; letter-spacing: -2px; text-align: center; margin: 0; }
+    .s5-tagline { font-size: 40px; font-weight: 300; color: rgba(255,255,255,0.8); margin-top: 20px; text-align: center; }
+    .s5-btn {
+      margin-top: 60px; padding: 24px 60px; border-radius: 100px;
+      background: #00ffaa; color: #000; font-size: 32px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; gap: 20px;
+    }
+
+    /* GSAP Initial States visibility */
+    #scene-2, #scene-3, #scene-4, #scene-5 { opacity: 0; pointer-events: none; }
+  </style>
+</head>
+<body>
+
+  <div data-hf-id="hf-0k5u" id="root" data-composition-id="eyewear-studio-promo" data-start="0" data-duration="15" data-width="1080" data-height="1920">
+    <div data-hf-id="hf-hgo1" id="orb-1" class="clip orb orb-1" data-start="0" data-duration="15" data-track-index="0"></div>
+    <div data-hf-id="hf-bezq" id="orb-2" class="clip orb orb-2" data-start="0" data-duration="15" data-track-index="1"></div>
+    <div data-hf-id="hf-oy9z" id="orb-3" class="clip orb orb-3" data-start="0" data-duration="15" data-track-index="2"></div>
+    <div data-hf-id="hf-49ir" id="bg-noise" class="clip noise" data-start="0" data-duration="15" data-track-index="3"></div>
+    <div data-hf-id="hf-yf3c" id="bg-grid" class="clip grid" data-start="0" data-duration="15" data-track-index="4"></div>
+
+    <!-- SCENE 1 -->
+    <div data-hf-id="hf-f2uv" class="clip scene" id="scene-1" data-start="0" data-duration="15" data-track-index="5">
+      <div data-hf-id="hf-5j7t" class="s1-tag" id="s1-tag">Pakistan's First</div>
+      <h1 data-hf-id="hf-v55w" class="s1-logo" id="s1-logo">EYEWEAR<br data-hf-id="hf-x5px">STUDIO</h1>
+      <div data-hf-id="hf-i3m6" class="s1-sub" id="s1-sub">AI Virtual Try-On Technology</div>
+    </div>
+
+    <!-- SCENE 2 -->
+    <div data-hf-id="hf-m6e5" class="clip scene" id="scene-2" data-start="0" data-duration="15" data-track-index="6">
+      <h2 data-hf-id="hf-f0zk" class="s2-text" id="s2-text1">
+        <span data-hf-id="hf-bzuw" class="s2-word">Can't</span> <span data-hf-id="hf-t4pc" class="s2-word">try</span> <span data-hf-id="hf-0x0h" class="s2-word">glasses</span> <span data-hf-id="hf-bhg5" class="s2-word">online?</span>
+      </h2>
+      <h2 data-hf-id="hf-j2wt" class="s2-text" id="s2-text2" style="margin-top: 40px; color: #00ffaa;">
+        <span data-hf-id="hf-mhdj" class="s2-word">We</span> <span data-hf-id="hf-yhxu" class="s2-word">solved</span> <span data-hf-id="hf-ozdc" class="s2-word">that.</span>
+      </h2>
+    </div>
+
+    <!-- SCENE 3 -->
+    <div data-hf-id="hf-btgr" class="clip scene" id="scene-3" data-start="0" data-duration="15" data-track-index="7">
+      <h2 data-hf-id="hf-xmzu" class="s3-title" id="s3-title">The Technology</h2>
+      
+      <div data-hf-id="hf-pnsp" class="glass-card" id="card-1">
+        <div data-hf-id="hf-eto3" class="icon">
+          <svg data-hf-id="hf-rfbg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path data-hf-id="hf-j3tc" d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2" /><circle data-hf-id="hf-2731" cx="12" cy="12" r="3" /><path data-hf-id="hf-4fgi" d="M12 17v.01M17 12h.01M7 12h.01M12 7v.01" /></svg>
+        </div>
+        <div data-hf-id="hf-mcm7" class="content">
+          <h3 data-hf-id="hf-oaj1">Virtual Face Tracking</h3>
+          <p data-hf-id="hf-wx9j">Real-time precision mapping of facial landmarks.</p>
+        </div>
+      </div>
+
+      <div data-hf-id="hf-vtii" class="glass-card" id="card-2">
+        <div data-hf-id="hf-dez7" class="icon">
+          <svg data-hf-id="hf-hch0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path data-hf-id="hf-uja3" d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><polyline data-hf-id="hf-sjov" points="3.27 6.96 12 12.01 20.73 6.96" /><line data-hf-id="hf-sjzl" x1="12" y1="22.08" x2="12" y2="12" /></svg>
+        </div>
+        <div data-hf-id="hf-i7rz" class="content">
+          <h3 data-hf-id="hf-vvtr">3D Rendering</h3>
+          <p data-hf-id="hf-sflz">Photorealistic glasses rendered instantly on the user.</p>
+        </div>
+      </div>
+      
+      <div data-hf-id="hf-zrmj" class="glass-card" id="card-3">
+        <div data-hf-id="hf-d0o6" class="icon">
+          <svg data-hf-id="hf-g5jx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline data-hf-id="hf-60pw" points="22 12 18 12 15 21 9 3 6 12 2 12" /></svg>
+        </div>
+        <div data-hf-id="hf-htgy" class="content">
+          <h3 data-hf-id="hf-vn81">Seamless Integration</h3>
+          <p data-hf-id="hf-b1dz">Plug into any e-commerce platform flawlessly.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCENE 4 -->
+    <div data-hf-id="hf-elhx" class="clip scene" id="scene-4" data-start="0" data-duration="15" data-track-index="8">
+      <h2 data-hf-id="hf-cmw7" class="s4-heading" id="s4-h1">Integrate AI.</h2>
+      <h2 data-hf-id="hf-h6bc" class="s4-heading" id="s4-h2" style="color: rgba(255,255,255,0.5);">Generate Sales.</h2>
+      <div data-hf-id="hf-z7cw" class="s4-sub" id="s4-sub">The future of retail is here.</div>
+    </div>
+
+    <!-- SCENE 5 -->
+    <div data-hf-id="hf-nlnr" class="clip scene" id="scene-5" data-start="0" data-duration="15" data-track-index="9">
+      <h1 data-hf-id="hf-n69o" class="s5-logo" id="s5-logo">EYEWEAR<br data-hf-id="hf-rsrt">STUDIO</h1>
+      <div data-hf-id="hf-trut" class="s5-tagline" id="s5-tagline">Change how the world sees glasses.</div>
+      <div data-hf-id="hf-bwgr" class="s5-btn" id="s5-btn">
+        Get Started
+        <svg data-hf-id="hf-o0zt" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2"><path data-hf-id="hf-m7n8" d="M5 12h14M13 6l6 6-6 6" /></svg>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    
+    // Background movement
+    tl.to(".orb-1", { x: 100, y: 150, duration: 15, ease: "none" }, 0);
+    tl.to(".orb-2", { x: -150, y: -100, duration: 15, ease: "none" }, 0);
+    tl.to(".orb-3", { x: 200, y: -200, duration: 15, ease: "none" }, 0);
+
+    // SCENE 1: 0 - 2.5s
+    tl.fromTo("#s1-tag", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.2);
+    tl.fromTo("#s1-logo", { opacity: 0, scale: 0.9, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 1, ease: "power3.out" }, 0.4);
+    tl.fromTo("#s1-sub", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.6);
+    tl.to("#scene-1", { opacity: 0, duration: 0.4, ease: "power2.inOut" }, 2.5);
+
+    // SCENE 2: 2.9 - 6.0s
+    tl.to("#scene-2", { opacity: 1, duration: 0.4 }, 2.9);
+    tl.fromTo("#s2-text1 .s2-word", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "back.out(1.5)" }, 3.1);
+    tl.fromTo("#s2-text2 .s2-word", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "back.out(1.5)" }, 4.0);
+    tl.to("#scene-2", { opacity: 0, duration: 0.4, ease: "power2.inOut" }, 6.0);
+
+    // SCENE 3: 6.4 - 10.0s
+    tl.to("#scene-3", { opacity: 1, duration: 0.4 }, 6.4);
+    tl.fromTo("#s3-title", { opacity: 0, y: -40 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 6.6);
+    tl.fromTo("#card-1", { opacity: 0, x: 100 }, { opacity: 1, x: 0, duration: 0.8, ease: "power3.out" }, 6.9);
+    tl.fromTo("#card-2", { opacity: 0, x: 100 }, { opacity: 1, x: 0, duration: 0.8, ease: "power3.out" }, 7.2);
+    tl.fromTo("#card-3", { opacity: 0, x: 100 }, { opacity: 1, x: 0, duration: 0.8, ease: "power3.out" }, 7.5);
+    tl.to("#scene-3", { opacity: 0, duration: 0.4, ease: "power2.inOut" }, 10.0);
+
+    // SCENE 4: 10.4 - 12.5s
+    tl.to("#scene-4", { opacity: 1, duration: 0.4 }, 10.4);
+    tl.fromTo("#s4-h1", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 10.6);
+    tl.fromTo("#s4-h2", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 10.8);
+    tl.fromTo("#s4-sub", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.8, ease: "back.out(1.5)" }, 11.2);
+    tl.to("#scene-4", { opacity: 0, duration: 0.4, ease: "power2.inOut" }, 12.5);
+
+    // SCENE 5: 12.9 - 15.0s
+    tl.to("#scene-5", { opacity: 1, duration: 0.4 }, 12.9);
+    tl.fromTo("#s5-logo", { opacity: 0, scale: 1.2 }, { opacity: 1, scale: 1, duration: 1, ease: "power3.out" }, 13.1);
+    tl.fromTo("#s5-tagline", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 13.5);
+    tl.fromTo("#s5-btn", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.8, ease: "back.out(1.5)" }, 13.8);
+
+    window.__timelines = window.__timelines || {};
+    window.__timelines["eyewear-studio-promo"] = tl;
+  </script>
+</body>
+</html>

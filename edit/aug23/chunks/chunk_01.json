@@ -1,0 +1,953 @@
+{
+  "chunk": 1,
+  "start": 120.0,
+  "words": [
+    {
+      "text": "For",
+      "start": 120.0,
+      "end": 120.28
+    },
+    {
+      "text": "example,",
+      "start": 120.28,
+      "end": 121.16
+    },
+    {
+      "text": "if",
+      "start": 121.92,
+      "end": 121.98
+    },
+    {
+      "text": "there",
+      "start": 121.98,
+      "end": 122.16
+    },
+    {
+      "text": "is",
+      "start": 122.16,
+      "end": 122.16
+    },
+    {
+      "text": "a",
+      "start": 122.16,
+      "end": 122.24
+    },
+    {
+      "text": "book",
+      "start": 122.24,
+      "end": 122.46
+    },
+    {
+      "text": "in",
+      "start": 122.46,
+      "end": 123.5
+    },
+    {
+      "text": "English,",
+      "start": 123.5,
+      "end": 123.9
+    },
+    {
+      "text": "you",
+      "start": 124.1,
+      "end": 124.52
+    },
+    {
+      "text": "can",
+      "start": 124.52,
+      "end": 124.52
+    },
+    {
+      "text": "upload",
+      "start": 124.52,
+      "end": 125.0
+    },
+    {
+      "text": "it",
+      "start": 125.0,
+      "end": 125.0
+    },
+    {
+      "text": "on",
+      "start": 125.0,
+      "end": 125.0
+    },
+    {
+      "text": "PDF",
+      "start": 125.0,
+      "end": 125.0
+    },
+    {
+      "text": "and",
+      "start": 125.0,
+      "end": 125.9
+    },
+    {
+      "text": "it",
+      "start": 125.9,
+      "end": 126.06
+    },
+    {
+      "text": "will",
+      "start": 126.06,
+      "end": 126.3
+    },
+    {
+      "text": "scan",
+      "start": 126.3,
+      "end": 126.3
+    },
+    {
+      "text": "that",
+      "start": 126.3,
+      "end": 126.56
+    },
+    {
+      "text": "PDF.",
+      "start": 126.56,
+      "end": 127.04
+    },
+    {
+      "text": "So",
+      "start": 127.94,
+      "end": 127.98
+    },
+    {
+      "text": "when",
+      "start": 127.98,
+      "end": 129.16
+    },
+    {
+      "text": "you",
+      "start": 129.16,
+      "end": 129.76
+    },
+    {
+      "text": "put",
+      "start": 129.76,
+      "end": 129.76
+    },
+    {
+      "text": "the",
+      "start": 129.76,
+      "end": 129.98
+    },
+    {
+      "text": "picture",
+      "start": 129.98,
+      "end": 130.34
+    },
+    {
+      "text": "in",
+      "start": 130.34,
+      "end": 130.58
+    },
+    {
+      "text": "the",
+      "start": 130.58,
+      "end": 130.58
+    },
+    {
+      "text": "examination,",
+      "start": 130.58,
+      "end": 130.58
+    },
+    {
+      "text": "for",
+      "start": 131.32,
+      "end": 131.44
+    },
+    {
+      "text": "example,",
+      "start": 131.44,
+      "end": 132.58
+    },
+    {
+      "text": "if",
+      "start": 132.58,
+      "end": 134.16
+    },
+    {
+      "text": "the",
+      "start": 134.16,
+      "end": 134.36
+    },
+    {
+      "text": "test",
+      "start": 134.36,
+      "end": 134.92
+    },
+    {
+      "text": "of",
+      "start": 134.92,
+      "end": 135.2
+    },
+    {
+      "text": "that",
+      "start": 135.2,
+      "end": 135.2
+    },
+    {
+      "text": "book",
+      "start": 135.2,
+      "end": 135.2
+    },
+    {
+      "text": "has",
+      "start": 135.2,
+      "end": 135.28
+    },
+    {
+      "text": "been",
+      "start": 135.28,
+      "end": 135.28
+    },
+    {
+      "text": "done,",
+      "start": 135.28,
+      "end": 135.84
+    },
+    {
+      "text": "it",
+      "start": 136.1,
+      "end": 136.3
+    },
+    {
+      "text": "will",
+      "start": 136.3,
+      "end": 136.38
+    },
+    {
+      "text": "examine",
+      "start": 136.38,
+      "end": 136.96
+    },
+    {
+      "text": "it",
+      "start": 136.96,
+      "end": 136.96
+    },
+    {
+      "text": "and",
+      "start": 136.96,
+      "end": 137.4
+    },
+    {
+      "text": "its",
+      "start": 137.4,
+      "end": 137.46
+    },
+    {
+      "text": "score",
+      "start": 137.46,
+      "end": 137.82
+    },
+    {
+      "text": "will",
+      "start": 137.82,
+      "end": 138.32
+    },
+    {
+      "text": "tell",
+      "start": 138.32,
+      "end": 138.34
+    },
+    {
+      "text": "you",
+      "start": 138.34,
+      "end": 139.12
+    },
+    {
+      "text": "how",
+      "start": 139.12,
+      "end": 139.62
+    },
+    {
+      "text": "accurate",
+      "start": 139.62,
+      "end": 140.2
+    },
+    {
+      "text": "it",
+      "start": 140.2,
+      "end": 140.36
+    },
+    {
+      "text": "is",
+      "start": 140.36,
+      "end": 140.36
+    },
+    {
+      "text": "and",
+      "start": 140.36,
+      "end": 140.58
+    },
+    {
+      "text": "how",
+      "start": 140.58,
+      "end": 140.58
+    },
+    {
+      "text": "much",
+      "start": 140.58,
+      "end": 140.72
+    },
+    {
+      "text": "we",
+      "start": 140.72,
+      "end": 140.96
+    },
+    {
+      "text": "can",
+      "start": 140.96,
+      "end": 140.96
+    },
+    {
+      "text": "do",
+      "start": 140.96,
+      "end": 140.96
+    },
+    {
+      "text": "according",
+      "start": 140.96,
+      "end": 141.16
+    },
+    {
+      "text": "to",
+      "start": 141.16,
+      "end": 141.62
+    },
+    {
+      "text": "it.",
+      "start": 141.62,
+      "end": 141.62
+    },
+    {
+      "text": "There",
+      "start": 141.84,
+      "end": 142.12
+    },
+    {
+      "text": "are",
+      "start": 142.12,
+      "end": 142.2
+    },
+    {
+      "text": "different",
+      "start": 142.2,
+      "end": 142.52
+    },
+    {
+      "text": "things",
+      "start": 142.52,
+      "end": 142.86
+    },
+    {
+      "text": "in",
+      "start": 142.86,
+      "end": 143.16
+    },
+    {
+      "text": "which",
+      "start": 143.16,
+      "end": 143.16
+    },
+    {
+      "text": "we",
+      "start": 143.16,
+      "end": 143.56
+    },
+    {
+      "text": "can",
+      "start": 143.56,
+      "end": 143.6
+    },
+    {
+      "text": "integrate",
+      "start": 143.6,
+      "end": 144.12
+    },
+    {
+      "text": "AI.",
+      "start": 144.12,
+      "end": 144.12
+    },
+    {
+      "text": "that",
+      "start": 176.23,
+      "end": 176.45
+    },
+    {
+      "text": "our",
+      "start": 176.45,
+      "end": 176.83
+    },
+    {
+      "text": "work",
+      "start": 176.83,
+      "end": 177.41
+    },
+    {
+      "text": "is",
+      "start": 177.41,
+      "end": 177.79
+    },
+    {
+      "text": "being",
+      "start": 177.79,
+      "end": 178.37
+    },
+    {
+      "text": "done",
+      "start": 178.37,
+      "end": 178.37
+    },
+    {
+      "text": "in",
+      "start": 178.37,
+      "end": 178.73
+    },
+    {
+      "text": "such",
+      "start": 178.73,
+      "end": 178.73
+    },
+    {
+      "text": "a",
+      "start": 178.73,
+      "end": 179.13
+    },
+    {
+      "text": "way",
+      "start": 179.36,
+      "end": 179.36
+    },
+    {
+      "text": "that",
+      "start": 179.36,
+      "end": 180.26
+    },
+    {
+      "text": "our",
+      "start": 180.26,
+      "end": 180.56
+    },
+    {
+      "text": "human",
+      "start": 180.56,
+      "end": 181.06
+    },
+    {
+      "text": "resources",
+      "start": 181.06,
+      "end": 181.54
+    },
+    {
+      "text": "are",
+      "start": 181.54,
+      "end": 181.72
+    },
+    {
+      "text": "being",
+      "start": 181.72,
+      "end": 181.76
+    },
+    {
+      "text": "used",
+      "start": 181.76,
+      "end": 182.0
+    },
+    {
+      "text": "in",
+      "start": 182.0,
+      "end": 182.0
+    },
+    {
+      "text": "such",
+      "start": 182.0,
+      "end": 182.0
+    },
+    {
+      "text": "a",
+      "start": 182.0,
+      "end": 182.0
+    },
+    {
+      "text": "way",
+      "start": 182.0,
+      "end": 182.26
+    },
+    {
+      "text": "that",
+      "start": 182.26,
+      "end": 182.36
+    },
+    {
+      "text": "it",
+      "start": 182.36,
+      "end": 183.46
+    },
+    {
+      "text": "becomes",
+      "start": 183.46,
+      "end": 183.76
+    },
+    {
+      "text": "easy",
+      "start": 183.76,
+      "end": 184.66
+    },
+    {
+      "text": "for",
+      "start": 184.66,
+      "end": 184.66
+    },
+    {
+      "text": "them.",
+      "start": 184.66,
+      "end": 184.66
+    },
+    {
+      "text": "It",
+      "start": 185.16,
+      "end": 185.16
+    },
+    {
+      "text": "becomes",
+      "start": 185.16,
+      "end": 185.3
+    },
+    {
+      "text": "a",
+      "start": 185.3,
+      "end": 185.38
+    },
+    {
+      "text": "kind",
+      "start": 185.38,
+      "end": 185.54
+    },
+    {
+      "text": "of",
+      "start": 185.54,
+      "end": 185.74
+    },
+    {
+      "text": "epithet.",
+      "start": 185.74,
+      "end": 186.12
+    },
+    {
+      "text": "What",
+      "start": 189.64,
+      "end": 190.24
+    },
+    {
+      "text": "other",
+      "start": 190.24,
+      "end": 190.62
+    },
+    {
+      "text": "things",
+      "start": 190.62,
+      "end": 190.9
+    },
+    {
+      "text": "can",
+      "start": 190.9,
+      "end": 190.9
+    },
+    {
+      "text": "we",
+      "start": 190.9,
+      "end": 191.16
+    },
+    {
+      "text": "integrate",
+      "start": 191.16,
+      "end": 191.66
+    },
+    {
+      "text": "in",
+      "start": 191.66,
+      "end": 191.66
+    },
+    {
+      "text": "the",
+      "start": 191.66,
+      "end": 191.66
+    },
+    {
+      "text": "rest",
+      "start": 191.66,
+      "end": 191.66
+    },
+    {
+      "text": "of",
+      "start": 191.66,
+      "end": 191.66
+    },
+    {
+      "text": "the",
+      "start": 191.66,
+      "end": 191.66
+    },
+    {
+      "text": "reporting?",
+      "start": 191.66,
+      "end": 191.66
+    },
+    {
+      "text": "I",
+      "start": 191.98,
+      "end": 191.98
+    },
+    {
+      "text": "mean",
+      "start": 191.98,
+      "end": 192.18
+    },
+    {
+      "text": "most",
+      "start": 192.18,
+      "end": 192.58
+    },
+    {
+      "text": "of",
+      "start": 192.58,
+      "end": 192.68
+    },
+    {
+      "text": "the",
+      "start": 192.68,
+      "end": 192.74
+    },
+    {
+      "text": "things",
+      "start": 192.74,
+      "end": 192.86
+    },
+    {
+      "text": "are",
+      "start": 192.86,
+      "end": 193.04
+    },
+    {
+      "text": "in",
+      "start": 193.04,
+      "end": 193.44
+    },
+    {
+      "text": "our",
+      "start": 193.44,
+      "end": 193.54
+    },
+    {
+      "text": "manual",
+      "start": 193.54,
+      "end": 193.88
+    },
+    {
+      "text": "but",
+      "start": 193.88,
+      "end": 194.46
+    },
+    {
+      "text": "most",
+      "start": 194.46,
+      "end": 194.74
+    },
+    {
+      "text": "of",
+      "start": 194.74,
+      "end": 194.78
+    },
+    {
+      "text": "the",
+      "start": 194.78,
+      "end": 194.98
+    },
+    {
+      "text": "things",
+      "start": 194.98,
+      "end": 195.02
+    },
+    {
+      "text": "are",
+      "start": 195.02,
+      "end": 195.28
+    },
+    {
+      "text": "also",
+      "start": 195.28,
+      "end": 195.98
+    },
+    {
+      "text": "in",
+      "start": 195.98,
+      "end": 196.06
+    },
+    {
+      "text": "our",
+      "start": 196.06,
+      "end": 196.06
+    },
+    {
+      "text": "online.",
+      "start": 196.06,
+      "end": 196.06
+    },
+    {
+      "text": "So",
+      "start": 226.7,
+      "end": 226.7
+    },
+    {
+      "text": "when",
+      "start": 226.7,
+      "end": 227.84
+    },
+    {
+      "text": "you",
+      "start": 227.84,
+      "end": 228.64
+    },
+    {
+      "text": "think",
+      "start": 228.64,
+      "end": 229.0
+    },
+    {
+      "text": "about",
+      "start": 229.0,
+      "end": 229.5
+    },
+    {
+      "text": "all",
+      "start": 229.5,
+      "end": 229.62
+    },
+    {
+      "text": "the",
+      "start": 229.62,
+      "end": 229.74
+    },
+    {
+      "text": "workflows",
+      "start": 229.74,
+      "end": 230.02
+    },
+    {
+      "text": "that",
+      "start": 230.02,
+      "end": 230.94
+    },
+    {
+      "text": "we",
+      "start": 230.94,
+      "end": 231.78
+    },
+    {
+      "text": "are",
+      "start": 231.78,
+      "end": 231.84
+    },
+    {
+      "text": "doing,",
+      "start": 231.84,
+      "end": 232.22
+    },
+    {
+      "text": "you",
+      "start": 232.68,
+      "end": 232.76
+    },
+    {
+      "text": "will",
+      "start": 232.76,
+      "end": 233.0
+    },
+    {
+      "text": "tell",
+      "start": 233.0,
+      "end": 233.2
+    },
+    {
+      "text": "me",
+      "start": 233.2,
+      "end": 233.3
+    },
+    {
+      "text": "about",
+      "start": 233.3,
+      "end": 233.3
+    },
+    {
+      "text": "it",
+      "start": 233.3,
+      "end": 233.3
+    },
+    {
+      "text": "and",
+      "start": 233.3,
+      "end": 233.5
+    },
+    {
+      "text": "I",
+      "start": 233.5,
+      "end": 233.66
+    },
+    {
+      "text": "will",
+      "start": 233.66,
+      "end": 233.78
+    },
+    {
+      "text": "recommend",
+      "start": 233.78,
+      "end": 234.2
+    },
+    {
+      "text": "it",
+      "start": 234.2,
+      "end": 234.38
+    },
+    {
+      "text": "to",
+      "start": 234.38,
+      "end": 234.56
+    },
+    {
+      "text": "you",
+      "start": 234.56,
+      "end": 234.56
+    },
+    {
+      "text": "that",
+      "start": 234.56,
+      "end": 234.86
+    },
+    {
+      "text": "we",
+      "start": 234.86,
+      "end": 235.72
+    },
+    {
+      "text": "can",
+      "start": 235.72,
+      "end": 235.82
+    },
+    {
+      "text": "integrate",
+      "start": 235.82,
+      "end": 236.26
+    },
+    {
+      "text": "it",
+      "start": 236.26,
+      "end": 236.74
+    },
+    {
+      "text": "in",
+      "start": 236.74,
+      "end": 236.74
+    },
+    {
+      "text": "this",
+      "start": 236.74,
+      "end": 236.74
+    },
+    {
+      "text": "way",
+      "start": 236.74,
+      "end": 236.74
+    },
+    {
+      "text": "and",
+      "start": 236.74,
+      "end": 238.26
+    },
+    {
+      "text": "it",
+      "start": 238.26,
+      "end": 238.68
+    },
+    {
+      "text": "will",
+      "start": 238.68,
+      "end": 238.9
+    },
+    {
+      "text": "be",
+      "start": 238.9,
+      "end": 239.24
+    },
+    {
+      "text": "integrated",
+      "start": 239.24,
+      "end": 239.78
+    },
+    {
+      "text": "in",
+      "start": 239.78,
+      "end": 239.78
+    },
+    {
+      "text": "this",
+      "start": 239.78,
+      "end": 239.78
+    },
+    {
+      "text": "way.",
+      "start": 239.78,
+      "end": 239.78
+    }
+  ],
+  "segments": [
+    {
+      "start": 120.0,
+      "end": 127.04,
+      "text": "For example, if there is a book in English, you can upload it on PDF and it will scan that PDF."
+    },
+    {
+      "start": 127.94,
+      "end": 135.84,
+      "text": "So when you put the picture in the examination, for example, if the test of that book has been done,"
+    },
+    {
+      "start": 136.1,
+      "end": 141.62,
+      "text": "it will examine it and its score will tell you how accurate it is and how much we can do according to it."
+    },
+    {
+      "start": 141.84,
+      "end": 144.12,
+      "text": "There are different things in which we can integrate AI."
+    },
+    {
+      "start": 176.23,
+      "end": 184.66,
+      "text": "that our work is being done in such a way that our human resources are being used in such a way that it becomes easy for them."
+    },
+    {
+      "start": 185.16,
+      "end": 186.12,
+      "text": "It becomes a kind of epithet."
+    },
+    {
+      "start": 189.64,
+      "end": 191.66,
+      "text": "What other things can we integrate in the rest of the reporting?"
+    },
+    {
+      "start": 191.98,
+      "end": 196.06,
+      "text": "I mean most of the things are in our manual but most of the things are also in our online."
+    },
+    {
+      "start": 226.7,
+      "end": 239.78,
+      "text": "So when you think about all the workflows that we are doing, you will tell me about it and I will recommend it to you that we can integrate it in this way and it will be integrated in this way."
+    }
+  ]
+}

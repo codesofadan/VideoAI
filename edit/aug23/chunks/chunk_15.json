@@ -1,0 +1,18 @@
+{
+  "chunk": 15,
+  "start": 1800.0,
+  "words": [
+    {
+      "text": "Okay.",
+      "start": 1806.38,
+      "end": 1807.78
+    }
+  ],
+  "segments": [
+    {
+      "start": 1806.38,
+      "end": 1807.78,
+      "text": "Okay."
+    }
+  ]
+}

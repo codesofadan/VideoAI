@@ -1,0 +1,623 @@
+{
+  "chunk": 2,
+  "start": 240.0,
+  "words": [
+    {
+      "text": "For",
+      "start": 300.16,
+      "end": 300.72
+    },
+    {
+      "text": "example,",
+      "start": 300.72,
+      "end": 301.0
+    },
+    {
+      "text": "your",
+      "start": 301.16,
+      "end": 301.3
+    },
+    {
+      "text": "website.",
+      "start": 301.3,
+      "end": 301.74
+    },
+    {
+      "text": "You",
+      "start": 302.12,
+      "end": 302.12
+    },
+    {
+      "text": "can",
+      "start": 302.12,
+      "end": 302.32
+    },
+    {
+      "text": "put",
+      "start": 302.32,
+      "end": 302.46
+    },
+    {
+      "text": "your",
+      "start": 302.46,
+      "end": 302.58
+    },
+    {
+      "text": "link",
+      "start": 302.58,
+      "end": 302.84
+    },
+    {
+      "text": "in",
+      "start": 302.84,
+      "end": 302.96
+    },
+    {
+      "text": "it.",
+      "start": 302.96,
+      "end": 302.96
+    },
+    {
+      "text": "You",
+      "start": 303.12,
+      "end": 303.26
+    },
+    {
+      "text": "can",
+      "start": 303.26,
+      "end": 303.26
+    },
+    {
+      "text": "put",
+      "start": 303.26,
+      "end": 303.26
+    },
+    {
+      "text": "everything",
+      "start": 303.26,
+      "end": 303.44
+    },
+    {
+      "text": "that",
+      "start": 303.44,
+      "end": 303.82
+    },
+    {
+      "text": "you",
+      "start": 303.82,
+      "end": 303.82
+    },
+    {
+      "text": "want.",
+      "start": 303.82,
+      "end": 303.82
+    },
+    {
+      "text": "You",
+      "start": 306.7,
+      "end": 307.26
+    },
+    {
+      "text": "can",
+      "start": 307.26,
+      "end": 307.82
+    },
+    {
+      "text": "put",
+      "start": 307.82,
+      "end": 309.94
+    },
+    {
+      "text": "everything",
+      "start": 309.94,
+      "end": 310.2
+    },
+    {
+      "text": "that",
+      "start": 310.2,
+      "end": 314.32
+    },
+    {
+      "text": "you",
+      "start": 314.32,
+      "end": 314.32
+    },
+    {
+      "text": "want.",
+      "start": 314.32,
+      "end": 314.56
+    },
+    {
+      "text": "Then",
+      "start": 314.94,
+      "end": 315.24
+    },
+    {
+      "text": "we",
+      "start": 315.24,
+      "end": 315.54
+    },
+    {
+      "text": "made",
+      "start": 315.54,
+      "end": 315.64
+    },
+    {
+      "text": "a",
+      "start": 315.64,
+      "end": 315.7
+    },
+    {
+      "text": "lead",
+      "start": 315.7,
+      "end": 315.94
+    },
+    {
+      "text": "generation",
+      "start": 315.94,
+      "end": 316.28
+    },
+    {
+      "text": "system.",
+      "start": 316.28,
+      "end": 316.7
+    },
+    {
+      "text": "We",
+      "start": 316.88,
+      "end": 317.0
+    },
+    {
+      "text": "made",
+      "start": 317.0,
+      "end": 317.26
+    },
+    {
+      "text": "a",
+      "start": 317.26,
+      "end": 317.64
+    },
+    {
+      "text": "4",
+      "start": 317.64,
+      "end": 317.78
+    },
+    {
+      "text": "-1",
+      "start": 317.78,
+      "end": 318.0
+    },
+    {
+      "text": "system.",
+      "start": 318.0,
+      "end": 318.36
+    },
+    {
+      "text": "We",
+      "start": 328.03,
+      "end": 328.59
+    },
+    {
+      "text": "made",
+      "start": 328.78,
+      "end": 329.34
+    },
+    {
+      "text": "a",
+      "start": 329.34,
+      "end": 329.34
+    },
+    {
+      "text": "4",
+      "start": 329.34,
+      "end": 330.3
+    },
+    {
+      "text": "-1",
+      "start": 330.3,
+      "end": 330.5
+    },
+    {
+      "text": "system.",
+      "start": 330.5,
+      "end": 330.78
+    },
+    {
+      "text": "Do",
+      "start": 330.78,
+      "end": 330.78
+    },
+    {
+      "text": "you",
+      "start": 330.78,
+      "end": 330.86
+    },
+    {
+      "text": "have",
+      "start": 330.86,
+      "end": 332.06
+    },
+    {
+      "text": "a",
+      "start": 332.06,
+      "end": 332.32
+    },
+    {
+      "text": "demo,",
+      "start": 332.32,
+      "end": 332.5
+    },
+    {
+      "text": "if",
+      "start": 332.74,
+      "end": 333.02
+    },
+    {
+      "text": "I",
+      "start": 333.02,
+      "end": 333.7
+    },
+    {
+      "text": "can",
+      "start": 333.7,
+      "end": 333.96
+    },
+    {
+      "text": "see",
+      "start": 333.96,
+      "end": 334.22
+    },
+    {
+      "text": "it.",
+      "start": 334.22,
+      "end": 334.5
+    },
+    {
+      "text": "Help",
+      "start": 334.64,
+      "end": 335.22
+    },
+    {
+      "text": "them",
+      "start": 335.22,
+      "end": 336.38
+    },
+    {
+      "text": "to",
+      "start": 336.38,
+      "end": 336.78
+    },
+    {
+      "text": "see",
+      "start": 336.78,
+      "end": 336.84
+    },
+    {
+      "text": "the",
+      "start": 336.84,
+      "end": 336.86
+    },
+    {
+      "text": "video",
+      "start": 336.86,
+      "end": 337.44
+    },
+    {
+      "text": "or",
+      "start": 337.44,
+      "end": 337.74
+    },
+    {
+      "text": "share",
+      "start": 337.74,
+      "end": 338.38
+    },
+    {
+      "text": "it.",
+      "start": 338.38,
+      "end": 338.88
+    },
+    {
+      "text": "It's",
+      "start": 339.88,
+      "end": 340.32
+    },
+    {
+      "text": "better",
+      "start": 340.32,
+      "end": 340.66
+    },
+    {
+      "text": "that",
+      "start": 340.66,
+      "end": 340.88
+    },
+    {
+      "text": "I",
+      "start": 340.88,
+      "end": 341.12
+    },
+    {
+      "text": "get",
+      "start": 341.12,
+      "end": 341.16
+    },
+    {
+      "text": "an",
+      "start": 341.16,
+      "end": 341.54
+    },
+    {
+      "text": "idea,",
+      "start": 341.54,
+      "end": 341.54
+    },
+    {
+      "text": "okay?",
+      "start": 341.96,
+      "end": 342.14
+    },
+    {
+      "text": "That",
+      "start": 342.76,
+      "end": 343.14
+    },
+    {
+      "text": "is",
+      "start": 343.14,
+      "end": 343.28
+    },
+    {
+      "text": "the",
+      "start": 343.28,
+      "end": 343.48
+    },
+    {
+      "text": "website",
+      "start": 343.48,
+      "end": 344.12
+    },
+    {
+      "text": "of",
+      "start": 344.12,
+      "end": 344.9
+    },
+    {
+      "text": "the",
+      "start": 344.9,
+      "end": 344.9
+    },
+    {
+      "text": "school,",
+      "start": 344.9,
+      "end": 344.9
+    },
+    {
+      "text": "you",
+      "start": 344.9,
+      "end": 345.32
+    },
+    {
+      "text": "can",
+      "start": 345.32,
+      "end": 346.02
+    },
+    {
+      "text": "edit",
+      "start": 346.02,
+      "end": 346.46
+    },
+    {
+      "text": "it",
+      "start": 346.46,
+      "end": 347.74
+    },
+    {
+      "text": "to",
+      "start": 347.74,
+      "end": 348.0
+    },
+    {
+      "text": "understand",
+      "start": 348.0,
+      "end": 348.46
+    },
+    {
+      "text": "the",
+      "start": 348.46,
+      "end": 348.68
+    },
+    {
+      "text": "problem",
+      "start": 348.68,
+      "end": 349.06
+    },
+    {
+      "text": "and",
+      "start": 349.06,
+      "end": 349.26
+    },
+    {
+      "text": "what",
+      "start": 349.26,
+      "end": 349.62
+    },
+    {
+      "text": "it",
+      "start": 349.62,
+      "end": 349.72
+    },
+    {
+      "text": "is.",
+      "start": 349.72,
+      "end": 349.92
+    },
+    {
+      "text": "So,",
+      "start": 350.4,
+      "end": 350.66
+    },
+    {
+      "text": "we",
+      "start": 350.68,
+      "end": 350.96
+    },
+    {
+      "text": "will",
+      "start": 350.96,
+      "end": 351.14
+    },
+    {
+      "text": "send",
+      "start": 351.14,
+      "end": 351.14
+    },
+    {
+      "text": "our",
+      "start": 351.14,
+      "end": 351.26
+    },
+    {
+      "text": "ID",
+      "start": 351.26,
+      "end": 351.54
+    },
+    {
+      "text": "and",
+      "start": 351.54,
+      "end": 351.88
+    },
+    {
+      "text": "team.",
+      "start": 351.88,
+      "end": 351.88
+    },
+    {
+      "text": "We",
+      "start": 352.56,
+      "end": 352.78
+    },
+    {
+      "text": "have",
+      "start": 352.78,
+      "end": 352.94
+    },
+    {
+      "text": "audited",
+      "start": 352.94,
+      "end": 353.26
+    },
+    {
+      "text": "it.",
+      "start": 353.26,
+      "end": 353.42
+    },
+    {
+      "text": "Okay.",
+      "start": 355.0,
+      "end": 355.58
+    },
+    {
+      "text": "No",
+      "start": 355.98,
+      "end": 356.38
+    },
+    {
+      "text": "problem.",
+      "start": 356.38,
+      "end": 356.66
+    },
+    {
+      "text": "So,",
+      "start": 358.06,
+      "end": 358.78
+    },
+    {
+      "text": "basically,",
+      "start": 358.96,
+      "end": 359.34
+    }
+  ],
+  "segments": [
+    {
+      "start": 300.16,
+      "end": 301.74,
+      "text": "For example, your website."
+    },
+    {
+      "start": 302.12,
+      "end": 302.96,
+      "text": "You can put your link in it."
+    },
+    {
+      "start": 303.12,
+      "end": 303.82,
+      "text": "You can put everything that you want."
+    },
+    {
+      "start": 306.7,
+      "end": 314.56,
+      "text": "You can put everything that you want."
+    },
+    {
+      "start": 314.94,
+      "end": 316.7,
+      "text": "Then we made a lead generation system."
+    },
+    {
+      "start": 316.88,
+      "end": 318.36,
+      "text": "We made a 4-1 system."
+    },
+    {
+      "start": 328.03,
+      "end": 330.78,
+      "text": "We made a 4-1 system."
+    },
+    {
+      "start": 330.78,
+      "end": 334.5,
+      "text": "Do you have a demo, if I can see it."
+    },
+    {
+      "start": 334.64,
+      "end": 338.88,
+      "text": "Help them to see the video or share it."
+    },
+    {
+      "start": 339.88,
+      "end": 342.14,
+      "text": "It's better that I get an idea, okay?"
+    },
+    {
+      "start": 342.76,
+      "end": 349.92,
+      "text": "That is the website of the school, you can edit it to understand the problem and what it is."
+    },
+    {
+      "start": 350.4,
+      "end": 351.88,
+      "text": "So, we will send our ID and team."
+    },
+    {
+      "start": 352.56,
+      "end": 353.42,
+      "text": "We have audited it."
+    },
+    {
+      "start": 355.0,
+      "end": 355.58,
+      "text": "Okay."
+    },
+    {
+      "start": 355.98,
+      "end": 356.66,
+      "text": "No problem."
+    },
+    {
+      "start": 358.06,
+      "end": 359.34,
+      "text": "So, basically,"
+    }
+  ]
+}

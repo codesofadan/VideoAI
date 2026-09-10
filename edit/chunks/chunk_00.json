@@ -1,0 +1,173 @@
+{
+  "chunk": 0,
+  "start": 0.0,
+  "words": [
+    {
+      "text": "Sir,",
+      "start": 26.48,
+      "end": 27.24
+    },
+    {
+      "text": "Pa,",
+      "start": 28.9,
+      "end": 29.28
+    },
+    {
+      "text": "MBS,",
+      "start": 42.82,
+      "end": 43.14
+    },
+    {
+      "text": "Pjvr,",
+      "start": 43.38,
+      "end": 44.48
+    },
+    {
+      "text": "KSR",
+      "start": 56.94,
+      "end": 57.64
+    },
+    {
+      "text": "I",
+      "start": 68.36,
+      "end": 68.54
+    },
+    {
+      "text": "don't",
+      "start": 68.54,
+      "end": 68.74
+    },
+    {
+      "text": "know",
+      "start": 68.74,
+      "end": 68.82
+    },
+    {
+      "text": "how",
+      "start": 68.82,
+      "end": 69.02
+    },
+    {
+      "text": "to",
+      "start": 69.02,
+      "end": 69.08
+    },
+    {
+      "text": "turn",
+      "start": 69.08,
+      "end": 69.08
+    },
+    {
+      "text": "it",
+      "start": 69.08,
+      "end": 69.46
+    },
+    {
+      "text": "on",
+      "start": 69.46,
+      "end": 69.9
+    },
+    {
+      "text": "I",
+      "start": 84.97,
+      "end": 85.23
+    },
+    {
+      "text": "don't",
+      "start": 85.23,
+      "end": 85.29
+    },
+    {
+      "text": "know",
+      "start": 85.29,
+      "end": 86.25
+    },
+    {
+      "text": "how",
+      "start": 86.25,
+      "end": 86.25
+    },
+    {
+      "text": "to",
+      "start": 86.25,
+      "end": 86.25
+    },
+    {
+      "text": "turn",
+      "start": 86.25,
+      "end": 86.25
+    },
+    {
+      "text": "it",
+      "start": 86.25,
+      "end": 86.25
+    },
+    {
+      "text": "on",
+      "start": 87.05,
+      "end": 87.33
+    },
+    {
+      "text": "I",
+      "start": 87.33,
+      "end": 88.15
+    },
+    {
+      "text": "don't",
+      "start": 88.15,
+      "end": 90.23
+    },
+    {
+      "text": "know",
+      "start": 96.47,
+      "end": 96.73
+    },
+    {
+      "text": "how",
+      "start": 96.73,
+      "end": 97.43
+    },
+    {
+      "text": "to",
+      "start": 97.75,
+      "end": 98.99
+    },
+    {
+      "text": "turn",
+      "start": 98.99,
+      "end": 98.99
+    },
+    {
+      "text": "it",
+      "start": 98.99,
+      "end": 98.99
+    },
+    {
+      "text": "on",
+      "start": 98.99,
+      "end": 99.79
+    }
+  ],
+  "segments": [
+    {
+      "start": 26.48,
+      "end": 57.64,
+      "text": "Sir, Pa, MBS, Pjvr, KSR"
+    },
+    {
+      "start": 68.36,
+      "end": 69.9,
+      "text": "I don't know how to turn it on"
+    },
+    {
+      "start": 84.97,
+      "end": 87.33,
+      "text": "I don't know how to turn it on"
+    },
+    {
+      "start": 87.33,
+      "end": 99.79,
+      "text": "I don't know how to turn it on"
+    }
+  ]
+}
